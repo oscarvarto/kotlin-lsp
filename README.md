@@ -35,14 +35,15 @@ Manual installation:
 
 The best way to track current capabilities and what is going to be supported in the next builds is this table:
 
->Important note: currently, only JVM-only Kotlin Gradle projects are supported out-of-the box.
+>Important note: currently, JVM-only Kotlin Gradle and Maven projects are supported out-of-the box.
 
 * [ ] Project import
   * [x] Gradle JVM project import
   * [ ] Gradle KMP project import
   * [x] JSON-based build system agnostic import
     * [ ] Quickstart for JSON
-  * [ ] Maven/Amper import
+  * [x] Maven import (JVM projects with Java/Kotlin support)
+  * [ ] Amper import
   * [ ] Dumb mode for no build system at all
 * [x] Highlighting
   * [x] Semantic highlighting

@@ -47,6 +47,10 @@ jvm_library(
     "@community//platform/external-system-impl:externalSystem-impl",
     "@community//platform/core-api:core",
     "@community//plugins/kotlin/base/plugin",
+    "@community//plugins/maven",
+    "@community//plugins/maven/maven-server-api",
+    "@community//plugins/kotlin/maven",
+    "@community//platform/workspace/jps:jps-entities",
   ]
 )
 ### auto-generated section `build language-server.project-import` end
